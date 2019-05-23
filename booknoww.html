@@ -1,0 +1,152 @@
+<html>
+<head>
+<title> funtastica </title>
+</head>
+<script>
+function display()
+{
+var a=document.getElementById("na").value;
+var b=document.getElementById("la").value;
+var c=document.getElementById("dob").value;
+var d=document.getElementById("s").selectedIndex;
+var e=document.getElementById("da").selectedIndex;
+var f=document.getElementById("em").value;
+var g=document.getElementById("mob").value;
+var h=document.getElementById("acc").value;
+if (a== "s")
+{
+alert ("Please enter your name");
+}
+else if (b== "")
+{
+alert ("Please enter your last name");
+}
+else if (c== "")
+{
+alert ("Please enter your date of birth");
+}
+else if (d== "")
+{
+alert ("Please pick your location");
+}
+else if (e== "")
+{
+alert ("Please enter your arrival date");
+}
+else if (f== "")
+{
+alert ("Please enter your email");
+}
+else if (g== "")
+{
+alert ("Please enter your mobile no");
+}
+else if (h== "")
+{
+alert ("Please enter your account details");
+}
+else
+{
+alert ("THANK YOU FOR BOOKING");
+}
+}
+</script>
+<body bgcolor="#fbecab">
+<img src="posterrrr.jpg" align="left" width="260" heigth="260">
+<br> <br> <br><br><br><br>
+
+<h1 align= "center"> <font color= "FF00BA" face= "Lucida Calligraphy" size= "6"> <b><u> BOOK NOW! </p> </font> </b> </u> 
+<hr color= "red" width= "90%"> </font> </h1>
+<form method= "post" name= "frm">
+<table align= "left" cellpadding="20" cellspacing="20">
+<tr>
+<td> <font color="7B1318" face= "Arial Rounded MT" size= "5"><b> <u> <i> GENERAL INFORMATION </b> </u> <i> </td>
+</tr>
+<tr>
+<td><font color="7B1318" face= "Arial Rounded MT" size= "4"><b> FIRST NAME: </td> 
+<td> <input type= "text" size= "30" name= "na" Id="na"> </b> </td>
+</tr>
+<tr>
+<td><font color="7B1318" face= "Arial Rounded MT" size= "4"><b> LAST NAME: </td>
+<td> <input type= "text" size= "30" name= "la" Id="la"></b> </td>
+</tr>
+<tr>
+<td><font color="7B1318" face= "Arial Rounded MT" size= "4"><b>  DATE OF BIRTH: </td>
+<td> <input type= "text" size= "30" name= "dob" Id="dob" ></b></td>
+</tr>
+<tr>
+<td> <font color="7B1318" face= "Arial Rounded MT" size= "4"><b>  LOCATION: </td>
+<td><font color="7B1318" face= "Arial Rounded MT" size= "4">
+<select name= "s" Id="s">
+<option>Select
+<option> KOCHI
+<option> BANGLORE
+<option> HYDERABAD
+</select></b> </td>
+</tr>
+<tr>
+<td><font color="7B1318" face= "Arial Rounded MT" size= "4">  <b>  ARRIVAL DATE </b> 
+<td> <select name= "da" Id="da"> 
+<option value="0">Select
+<option value= "1"> 1
+<option value= "2"> 2
+<option value= "3"> 3
+<option value= "4"> 4
+<option value= "5"> 5
+<option value= "6"> 6
+<option value= "7"> 7
+<option value= "8"> 8
+<option value= "9"> 9
+<option value= "10"> 10
+<option value= "11"> 11
+<option value= "12"> 12
+<option value= "13"> 13
+<option value= "14"> 14
+<option value= "15"> 15
+<option value= "16"> 16
+<option value= "17"> 17
+<option value= "18"> 18
+<option value= "19"> 19
+<option value= "20"> 20
+<option value= "21"> 21
+<option value= "22"> 22
+<option value= "23"> 23
+<option value= "24"> 24
+<option value= "25"> 25
+<option value= "26"> 26
+<option value= "27"> 27
+<option value= "28"> 28
+<option value= "29"> 29
+<option value= "30"> 30
+<option value= "31"> 31
+</select> </td> </b>
+</tr>
+<tr>
+<td> <font color="7B1318" face= "Arial Rounded MT" size= "4"><b>  EMAIL ADDRESS: </td>
+<td> <input type= "text" size= "50" name= "em" Id="em" ></b> </td>
+</tr>
+<tr>
+<td><font color="7B1318" face= "Arial Rounded MT" size= "4">  <b>  MOBILE NUMBER: </td>
+<td> <input type= "text" size= "30" name= "mob" Id="mob"></b> </td>
+</tr>
+<tr>
+<td><font color="7B1318" face= "Arial Rounded MT" size= "4"> <b>  ACCOUNT DETAILS: </td>
+<td> <input type= "text" size= "30" name= "acc" Id="acc"> </b> </td>
+</tr>
+<tr>
+<td><font color="7B1318" face= "Arial Rounded MT" size= "4"><input type= "submit" value= "SUBMIT" onclick= "display()"></td>
+<td><font color="7B1318" face= "Arial Rounded MT" size= "4"><input type= "reset" value= "RESET" > </td>
+</tr>
+</font>
+</table>
+</form>
+</body> 
+</html>
+
+
+
+
+
+
+
+
